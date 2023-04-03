@@ -3,11 +3,12 @@
   flex-wrap: wrap;
   place-items: center;
   justify-content: space-between;
+  padding: 10px;
 }
 
 .logo span{
   font-size: 2rem;
-  color: ;
+  color: #d129ab;
 }
 
 .logo{
@@ -24,8 +25,13 @@
   padding: 10px 20px;
 }
 
+.navegacao a:hover{
+  color: #d129ab;
+  text-decoration: underline;
+}
+
 .login{
-  border: 1px solid #000;
+  border: 1px solid #d129ab;
   border-radius: 5px;
   padding: 10px 20px;
 }

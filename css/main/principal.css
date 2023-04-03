@@ -1,0 +1,45 @@
+.principal{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.principal img{
+  animation: mexer 3s infinite;
+}
+
+.principal h1{
+  font-size: 4.5rem;
+  place-self: end center;
+}
+.principal span{
+  font-size: 7rem;
+  color: #d129ab;
+}
+.principal p{
+  max-width: 50ch;
+  place-self: center;
+}
+
+.descricao{
+  display: grid;
+}
+
+.descricao .btn{
+  place-self: start center;
+}
+
+
+
+
+
+@keyframes mexer{
+  0%{
+    transform: translateY(-10px);
+  }
+  50%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
