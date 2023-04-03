@@ -1,0 +1,31 @@
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  place-items: center;
+  justify-content: space-between;
+}
+
+.logo span{
+  font-size: 2rem;
+  color: ;
+}
+
+.logo{
+  font-size: 1.3rem;
+}
+
+.navegacao ul{
+  display: flex;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+}
+
+.navegacao ul li{
+  padding: 10px 20px;
+}
+
+.login{
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
